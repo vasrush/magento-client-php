@@ -1,8 +1,8 @@
 {
-    "name": "cpliakas/magento-client-php",
+    "name": "vasrush/magento-client-php",
     "type": "library",
     "description": "A PHP client library that consumes Magento's REST and XMLRPC APIs",
-    "homepage": "https://github.com/cpliakas/magento-client-php",
+    "homepage": "https://github.com/vasrush/magento-client-php",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "guzzle/guzzle": "~3.0",
+        "guzzle/guzzle": "~6.3.3",
         "lstrojny/fxmlrpc": ">=0.8,<0.9"
     },
     "require-dev": {
