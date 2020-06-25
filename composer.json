@@ -1,6 +1,7 @@
 {
     "name": "vasrush/magento-client-php",
     "type": "library",
+    "version": "1.0",
     "description": "A PHP client library that consumes Magento's REST and XMLRPC APIs",
     "homepage": "https://github.com/vasrush/magento-client-php",
     "license": "MIT",
