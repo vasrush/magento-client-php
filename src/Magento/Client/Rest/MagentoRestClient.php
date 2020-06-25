@@ -2,9 +2,8 @@
 
 namespace Magento\Client\Rest;
 
-use Guzzle\Common\Collection;
-use Guzzle\Http\Exception\ClientErrorResponseException;
-use Guzzle\Service\Client;
+use GuzzleHttp\Exception\ClientException;
+use GuzzleHttp\Client;
 
 class MagentoRestClient extends Client
 {
