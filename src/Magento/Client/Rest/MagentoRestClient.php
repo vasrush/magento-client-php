@@ -2,7 +2,6 @@
 
 namespace Magento\Client\Rest;
 
-use Guzzle\Common\Collection;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Client;
 
@@ -27,7 +26,7 @@ class MagentoRestClient extends Client
             'consumer_secret',
         );
 
-        $config = Collection::fromConfig($config, $defaults, $required);
+      //  $config = Collection::fromConfig($config, $defaults, $required);
 
         $magento = new static($config->get('base_url'), $config);
         $magento->addSubscriber(new MagentoOauthPlugin($config->toArray()));
