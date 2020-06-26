@@ -2,6 +2,7 @@
 
 namespace Magento\Client\Rest;
 
+use Guzzle\Common\Collection;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Client;
 
