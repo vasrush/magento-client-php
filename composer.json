@@ -17,6 +17,7 @@
     "require": {
         "php": ">=5.3.3",
         "guzzlehttp/guzzle": "^6",
+        "guzzlehttp/oauth-subscriber": "0.3.*"
         "lstrojny/fxmlrpc": ">=0.8,<0.9"
     },
     "require-dev": {
